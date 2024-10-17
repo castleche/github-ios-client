@@ -8,9 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var shouldLogin = true
+    @State private var isPresentingLoginView = false
+
     var body: some View {
         Text("Hello, world!")
+            .font(.largeTitle)
+            .foregroundColor(.blue)
             .padding()
+            .background(.green)
+            .onAppear {
+                if (shouldLogin)
+                {
+                    isPresentingLoginView = true;
+                }
+            }
+            .sheet(isPresented: $isPresentingLoginView)
+        {
+            LoginView()
+        }
     }
 }
 

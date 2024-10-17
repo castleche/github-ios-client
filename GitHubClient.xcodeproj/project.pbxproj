@@ -14,6 +14,7 @@
 		6DBBE7B72CC00D8900F426AE /* GitHubClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBBE7B62CC00D8900F426AE /* GitHubClientTests.swift */; };
 		6DBBE7C12CC00D8900F426AE /* GitHubClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBBE7C02CC00D8900F426AE /* GitHubClientUITests.swift */; };
 		6DBBE7C32CC00D8900F426AE /* GitHubClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBBE7C22CC00D8900F426AE /* GitHubClientUITestsLaunchTests.swift */; };
+		6DBBE7D02CC1376F00F426AE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBBE7CF2CC1376F00F426AE /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		6DBBE7BC2CC00D8900F426AE /* GitHubClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DBBE7C02CC00D8900F426AE /* GitHubClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubClientUITests.swift; sourceTree = "<group>"; };
 		6DBBE7C22CC00D8900F426AE /* GitHubClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DBBE7CF2CC1376F00F426AE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				6DBBE7A52CC00D8700F426AE /* GitHubClientApp.swift */,
 				6DBBE7A72CC00D8700F426AE /* ContentView.swift */,
+				6DBBE7CF2CC1376F00F426AE /* LoginView.swift */,
 				6DBBE7A92CC00D8900F426AE /* Assets.xcassets */,
 				6DBBE7AB2CC00D8900F426AE /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DBBE7D02CC1376F00F426AE /* LoginView.swift in Sources */,
 				6DBBE7A82CC00D8700F426AE /* ContentView.swift in Sources */,
 				6DBBE7A62CC00D8700F426AE /* GitHubClientApp.swift in Sources */,
 			);
